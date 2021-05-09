@@ -11,7 +11,7 @@ Uma breve explicação de cada script do projeto
 
 * **mask_identifier.py**
 
-    Realiza o treinamento do modelo, com as imagens contidas em **data/training_images** e **data/test_images**
+    Realiza o treinamento do modelo, com as imagens contidas em ``data/training_images`` e ``data/test_images``
 
 * **data/scrapping_persons.py**
 
@@ -24,3 +24,5 @@ Uma breve explicação de cada script do projeto
 * **mask_detector_model**
 
     Modelo obtido com o treinamento
+
+![Funcionamento do modelo](./assets/casoexemplo.gif)
