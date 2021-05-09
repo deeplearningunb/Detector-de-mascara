@@ -5,9 +5,13 @@ Projeto com o intuito de criar um detector de mascaras utilizando técnicas de D
 
 Uma breve explicação de cada script do projeto
 
-* **app.py** [Script principal]
+* **dect_faces.py** [Script principal]
 
     Abre a webcam, carrega os dois modelos usados e os utiliza para fazer o reconhecimento em tempo real
+
+* **mask_identifier.py**
+
+    Realiza o treinamento do modelo, com as imagens contidas em **data/training_images** e **data/test_images**
 
 * **data/scrapping_persons.py**
 
@@ -16,4 +20,7 @@ Uma breve explicação de cada script do projeto
 * **data/add_masks.py**
 
     Adiciona máscaras nas imagens já coletadas pelo `scrapping_persons.py`
-    
+
+* **mask_detector_model**
+
+    Modelo obtido com o treinamento
